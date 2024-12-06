@@ -27,7 +27,7 @@ header {
   display: grid;
   grid-template-columns: fit-content(100%) 1fr fit-content(100%);
 }
-@media (max-width: 480px) {
+@media (max-width: 380px) {
   header > * {
     width: -moz-fit-content;
     width: fit-content;
@@ -46,7 +46,7 @@ header > :nth-child(2) {
   justify-content: center;
   gap: 1rem;
 }
-@media (max-width: 480px) {
+@media (max-width: 380px) {
   header > :nth-child(2) {
     grid-row: 2;
     grid-column: 1/-1;
@@ -84,7 +84,7 @@ main #heroSection #hero {
   justify-content: center;
   margin: auto;
 }
-@media (max-width: 480px) {
+@media (max-width: 380px) {
   main #heroSection #hero {
     height: 30vh;
   }
@@ -101,7 +101,7 @@ main #heroSection #hero h1 {
   -webkit-text-stroke: 0.2vw white;
   animation: float 3s ease-in-out infinite;
 }
-@media (max-width: 480px) {
+@media (max-width: 380px) {
   main #heroSection #hero h1 {
     height: 30vh;
     top: 40%;
@@ -142,7 +142,7 @@ main #heroSection #hero img {
   width: auto;
   transition: transform 0.5s ease-in-out;
 }
-@media (max-width: 480px) {
+@media (max-width: 380px) {
   main #heroSection #hero img {
     width: 40vw;
     height: auto;
